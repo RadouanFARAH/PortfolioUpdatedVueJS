@@ -44,7 +44,6 @@ export default {
   mounted() {
     Chart.defaults.global.defaultFontFamily = "comfortaa";
 
-    //coding chart
     var ctx = document.getElementById("codingChart");
     new Chart(ctx, {
       type: "radar",
